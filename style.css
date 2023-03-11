@@ -190,15 +190,18 @@ body {
   left: 2.5vmin;
   top: 0vmin;
   
-  animation: slide-rev 0.2s ease-out;
+ 
 }
 
-.blink-text{
-  Z-INDEX: 1;
-  font-family: cursive;
-  color: #f320da;
-  top: 50%;
-  font-size: 30px:
+.text{
+  
+  color: #f268df;
+  top: 10px;
+  font-size: 40px;
+  text-align: center;
+  
+  
+  
   
 }
   
@@ -210,7 +213,7 @@ body {
   height: 8vmin;
   width: 10vmin;
   border-radius: 40%;
-  top: 15vmin;
+  top: 20vmin;
   display: flex;
 }
 .pikachu::before {

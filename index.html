@@ -28,7 +28,7 @@
   top: 45%; /* Di chuyển nút lên 50% độ cao của màn hình */
   left: 50%; /* Di chuyển nút sang 50% độ rộng của màn hình */
   transform: translate(-50%, -50%); /* Dịch chuyển nút lùi lại 50% độ rộng và 50% độ cao của chính nó */
-    background-color: #bf1e8184; /* Màu nền */
+    background-color: #fbfbfb0c; /* Màu nền */
     border: none; /* Không có đường viền */
     color: white; /* Màu chữ */
     padding: 20px 50px; /* Kích thước nút */
@@ -42,18 +42,29 @@
     transition-duration: 0.5s; /* Thời gian chuyển đổi */
     width: 700px;
 }
+html, body {             /* căn đều ảnh ra full màn hình*/
+  height: 101%; 
+  width: 100%; 
+  
+    
+
+  }
 
 button:hover {
-    background-color: #bf1e813d; /* Màu nền khi di chuột vào */
+    background-color: #bbb7b70a; /* Màu nền khi di chuột vào */
     color: white; /* Màu chữ khi di chuột vào */
 }
 
 body { 
   
-  background-image: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+  background-image: url('anh/sinhnhat.jpg');
+            background-repeat: no-repeat;
+            background-position:  center center;
+            background-size: cover ;
+            display: flex;
+           
+            align-items: center ;
  
-  
-  
 }
 h1 {
   font-size: 55px;
@@ -77,5 +88,4 @@ h1 {
             window.location.href = "audio.html"; // thay đổi đường dẫn của trang mới tại đây
         }
         </script>
-</body>
-</html>
+</body></html>

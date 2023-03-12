@@ -179,7 +179,7 @@ body {
 
 .card {
   position: absolute;
-  background: white;
+  background: rgb(244, 244, 244);
   height: 25vmin;
   width: 43vmin;
   
@@ -195,12 +195,13 @@ body {
 
 .text{
   
-  color: #f268df;
+  color: #eb66d9;
   top: 10px;
-  font-size: 40px;
+  font-size: 45px;
   text-align: center;
-  
-  
+  text-decoration: none;
+    display: inline-block;
+    margin-top: -20%;
   
   
 }

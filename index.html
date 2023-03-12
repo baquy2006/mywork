@@ -5,9 +5,7 @@
     <title>HAPPY BIRTHDAY ÁNH TIÊN</title>
     <style>
     
-
-    
-.blink-text {
+    .blink-button {
   animation: blink 2.5s linear infinite;
 }
 
@@ -15,14 +13,29 @@
   0% {
     opacity: 1;
   }
-  60% {
+  40% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
 }
-    button {
+.blink-text {
+  animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+    .blink-button {
        
         position: absolute; /* Đặt vị trí tuyệt đối */
   top: 45%; /* Di chuyển nút lên 50% độ cao của màn hình */
@@ -42,6 +55,7 @@
     transition-duration: 0.5s; /* Thời gian chuyển đổi */
     width: 700px;
     box-shadow: 0 0 40px;
+    animation: blink 4s ease-in-out infinite; /* thêm hiệu ứng nhấp nháy */
 }
 html, body {             /* căn đều ảnh ra full màn hình*/
   height: 101%; 
@@ -78,7 +92,7 @@ h1 {
 
     
     <div class="container">
-        <button class="button" onclick="openNewPage()">
+        <button class="blink-button" onclick="openNewPage()">
           <h1 class="blink-text">Này bạn nhấn vào đây ❤</h1>
         </button>
       </div>

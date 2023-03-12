@@ -189,19 +189,25 @@ body {
   align-items: center;
   left: 2.5vmin;
   top: 0vmin;
+  border-radius: 30px;
   
  
 }
 
 .text{
-  
-  color: rgb(243, 143, 143);
-  top: 10px;
+  color:rgba(248, 248, 248, 0.954);
+  background-color: rgb(240, 132, 132);
+  margin-top: -10%;
   font-size: 45px;
   text-align: center;
   text-decoration: none;
     display: inline-block;
-    margin-top: -20%;
+    
+    box-shadow: 0 0 50px #ef6b7b;
+    padding: 8px 21.5px;  
+    border-radius: 35px;
+   
+   
   
   
 }
